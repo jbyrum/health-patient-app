@@ -1,0 +1,29 @@
+{
+  "name": "health-app",
+  "scripts": {
+  },
+  "env": {
+    "CACHING_ENABLED": {
+      "required": true
+    },
+    "MONGODB_URI": {
+      "required": true
+    },
+    "REDIS_URL": {
+      "required": true
+    },
+    "RISK_URL": {
+      "required": true
+    },
+    "DATABASE_URL": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
